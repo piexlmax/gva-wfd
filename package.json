@@ -1,6 +1,6 @@
 {
     "name": "wfd-gva",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "private": false,
     "description": "基于wfd-vue发布的最新版本，基本未改动只为了项目可以使用",
     "main": "dist/wfd-vue.umd.min.js",
@@ -14,8 +14,8 @@
         "dist"
     ],
     "authors": {
-        "name": "guozhaolong",
-        "email": "guozhaolong@gmail.com"
+        "name": "piexlmax",
+        "email": "303176530@qq.com"
     },
     "license": "MIT",
     "bugs": {

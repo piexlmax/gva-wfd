@@ -29,27 +29,6 @@
                           :value="model.name"
                           @input="(value) => {onChange('name', value)}" />
             </div>
-            <div class="panelRow">
-                <div>
-                    {{i18n['process.dataObjs']}}：
-                    <el-button :disabled="readOnly" size="mini" @click="()=>{}">{{i18n['tooltip.edit']}}</el-button>
-                </div>
-
-            </div>
-            <div class="panelRow">
-                <div>
-                    {{i18n['process.signalDefs']}}：
-                    <el-button :disabled="readOnly" size="mini" @click="()=>{}">{{i18n['tooltip.edit']}}</el-button>
-                </div>
-
-            </div>
-            <div class="panelRow">
-                <div>
-                    {{i18n['process.messageDefs']}}：
-                    <el-button :disabled="readOnly" size="mini" @click="()=>{}">{{i18n['tooltip.edit']}}</el-button>
-                </div>
-
-            </div>
         </div>
     </div>
 </template>
